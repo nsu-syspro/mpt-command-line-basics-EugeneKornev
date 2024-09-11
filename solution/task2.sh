@@ -1,6 +1,7 @@
 #! /bin/bash
 
-cd ~/mpt-command-line-basics-EugeneKornev/data
+echo $(pwd)
+cd data
 a=$(find . -iname foo.txt)
 b=$(find . -name bar.txt)
 c=$(find . -name baz.txt)

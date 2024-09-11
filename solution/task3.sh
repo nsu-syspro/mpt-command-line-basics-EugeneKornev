@@ -1,4 +1,4 @@
 #! /bin/bash
 
-cd ~/mpt-command-line-basics-EugeneKornev/data
+cd data
 basename -a $(find . -name '*.txt') | sort
